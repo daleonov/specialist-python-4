@@ -53,7 +53,7 @@ price_with_discount = np.array([124.9, 129.9, 109.9, 104.9, 699.0, 37.6, 44.9, 4
 в) Найдите товар с самой большой скидкой в *процентах*. Выведите на экран наименование товара размер его скидки в рублях и процентах.
 
 <details><summary>Как найти самое большое число в массиве?</summary>
-Самое большое значение в массиве можно найти методом <tt><a href="[https://numpy.org/doc/stable/reference/generated/numpy.sort.html](https://numpy.org/doc/stable/reference/generated/numpy.max.html)" target="_blank">название_массива.max()</a></tt>. А номер (индекс) самого большого элемента можно найти методом <tt><a href="https://numpy.org/doc/stable/reference/generated/numpy.argmax.html" target="_blank">название_массива.argmax()</a></tt>. Полученный индекс в этой задаче можно применить к соседнему массиву или списку.
+Самое большое значение в массиве можно найти методом <tt><a href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html" target="_blank">название_массива.max()</a></tt>. А номер (индекс) самого большого элемента можно найти методом <tt><a href="https://numpy.org/doc/stable/reference/generated/numpy.argmax.html" target="_blank">название_массива.argmax()</a></tt>. Полученный индекс в этой задаче можно применить к соседнему массиву или списку.
 </details>
 
 г) Выведите три самых дорогих позиций в чеке (с учётом скидки и объёма).
